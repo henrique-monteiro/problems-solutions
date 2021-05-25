@@ -1,6 +1,6 @@
 package hackerRank.pagSeguro;
 
-public class Ex13 {
+public class Ex13_incompleto {
 	
 	public static String isPossible(int a, int b, int c, int d) {
 	    // Write your code here

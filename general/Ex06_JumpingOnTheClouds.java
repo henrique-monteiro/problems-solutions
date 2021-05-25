@@ -55,7 +55,7 @@ public class Ex06_JumpingOnTheClouds {
 					if (i == c.size()-2) {
 						flagPulo2 = true;
 					}
-				} else if (c.get(i+1) == 0){
+				} else if (c.get(i+1) == 0){		//código duplicado
 					result++;
 					i+=1;
 					System.out.println("1 pulo: " + result);
@@ -65,7 +65,7 @@ public class Ex06_JumpingOnTheClouds {
 				} else {
 					return result;
 				}
-			} else if (c.get(i+1) == 0){
+			} else if (c.get(i+1) == 0){		//código duplicado
 				result++;
 				i+=1;
 				System.out.println("1 pulo: " + result);
